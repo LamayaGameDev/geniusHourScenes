@@ -8,29 +8,24 @@ using UnityEngine;
 
 public class CreateAndJoinRooms : MonoBehaviourPunCallbacks
 {
-    public InputField createInput;
-    public InputField joinInput;
+    public InputField roomInput;
+    //public InputField joinInput;
 
     public void CreateRoom()
     {
-        
-        
-            PhotonNetwork.CreateRoom(createInput.text);
-        
-
-
+        Debug.Log("Creating...");
+        PhotonNetwork.CreateRoom(roomInput.text);
     }
 
     public void JoinRoom()
     {
-         
-        
-            PhotonNetwork.JoinRoom(joinInput.text);
-        
+        Debug.Log("Joining...");
+        PhotonNetwork.JoinRoom(roomInput.text);
     }
 
     public override void OnJoinedRoom()
     {
+        Debug.Log("On Join...");
         PhotonNetwork.LoadLevel("asd");
     }
 } 
