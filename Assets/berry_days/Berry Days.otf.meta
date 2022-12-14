@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: adfcabaac9cbe0b40a55f8a18eb0907d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Berry Days
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 6484070887ac3874496476712d16dcc8, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
